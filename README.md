@@ -27,6 +27,8 @@ Iniciar o projeto
    npm install              //baixar as dependências
    npm run dev              //subir o servidor
 ```
+- Interpolação
+- Live-reloading
 
 
 ### Aula 02 - Adequando o template gerado
