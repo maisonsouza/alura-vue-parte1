@@ -1,22 +1,11 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <!--Interpolação-->
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+  <div>
+    <h1> {{titulo }} </h1>
+    <ul v-for="foto of fotos">
+      <li><img :src="foto.url" :alt="foto.titulo"/></li>
     </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+
+
   </div>
 </template>
 
@@ -25,7 +14,17 @@
     name: 'app',
     data() {
       return {
-        msg: 'Maison Galvão - Desenvolvimento de Sistemas'
+        titulo: 'Alurapic',
+        fotos: [
+          {
+            url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhdQZRK-C5eq6fd1zzOZqan3hMCE0prhSwpk6C1-UGKdDrVZQ5g&s',
+            titulo: 'Cachorro'
+          },
+          {
+            url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jO3pvYgzwalKY8Dc4vq3_e-IdKHJ6wmYtdrW_PGzzQH5rPAJ&s',
+            titulo: 'Cachorrinho'
+          }
+        ]
       }
     }
   }

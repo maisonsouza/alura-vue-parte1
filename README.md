@@ -30,11 +30,26 @@ Iniciar o projeto
 - Interpolação
 - Live-reloading
 
+`` Revisão ``
+```
+instalar e utilizar o Vue CLI
+criar do zero um novo projeto
+estrutura fundamental do projeto
+arquivos de template .vue
+estrutura de um template
+relação entre index.html, main.js e App.vue
+como a renderização de um template é feita
+data binding unidirecional através de interpolação
+o mecanismo de live reloading
+```
+
 
 ### Aula 02 - Adequando o template gerado
 
 ```
-
+data binding unidirecional em atributos através da diretiva v-bind
+atalho para v-bind
+a diretiva v-for
 ```
 
 ### Aula 03 - Integração com API de terceiros
