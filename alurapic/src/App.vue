@@ -15,17 +15,15 @@
     data() {
       return {
         titulo: 'Alurapic',
-        fotos: [
-          {
-            url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhdQZRK-C5eq6fd1zzOZqan3hMCE0prhSwpk6C1-UGKdDrVZQ5g&s',
-            titulo: 'Cachorro'
-          },
-          {
-            url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jO3pvYgzwalKY8Dc4vq3_e-IdKHJ6wmYtdrW_PGzzQH5rPAJ&s',
-            titulo: 'Cachorrinho'
-          }
-        ]
+        fotos: []
       }
+    },
+    created() {
+      this.$http.get('http://localhost:3000/v1/fotos')
+        .then(res => {
+          res.json()
+            .then(fotos => this.fotos = fotos, error => console.log(error));
+        });
     }
   }
 </script>

@@ -53,9 +53,18 @@ a diretiva v-for
 ```
 
 ### Aula 03 - Integração com API de terceiros
+[API Fotos](https://s3.amazonaws.com/caelum-online-public/vue/api.zip)
 
+Revisão
 ```
-
+a subir uma API para ser consumida pela nossa aplicação
+a entender a separação entre cliente e API
+a baixar e registrar o módulo VueResource
+o suporte à lifecycle hooks que todo componente possui
+que recursos no global view object ficam disponíveis para todas as outras view
+consumir uma API através de $http
+o conceito de promise
+enxergar ainda melhor o poder do data binding
 ```
 
 ### Alura 04 - Criando componentes e encapsulamento de view
