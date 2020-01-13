@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <h1> {{titulo }} </h1>
-    <ul v-for="foto of fotos">
-      <li><img :src="foto.url" :alt="foto.titulo"/></li>
+  <div class="corpo">
+    <h1 class="centralizado"> {{titulo }} </h1>
+    <ul class="lista-fotos">
+      <li class="lista-fotos-item" v-for="foto of fotos">
+        <meu-painel :titulo="foto.titulo">
+          <img class="imagem-responsiva" :src="foto.url" :alt="foto.titulo">
+        </meu-painel>
+
+      </li>
     </ul>
 
 
@@ -10,7 +15,12 @@
 </template>
 
 <script>
+  import Painel from './component/shared/painel/Painel'
+
   export default {
+    components: {
+      'meu-painel': Painel
+    },
     name: 'app',
     data() {
       return {
@@ -29,30 +39,26 @@
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  .centralizado {
     text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
   }
 
-  h1, h2 {
-    font-weight: normal;
+  .corpo {
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 96%;
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
+  .lista-fotos {
+    list-style: none;
   }
 
-  li {
+  .lista-fotos .lista-fotos-item {
     display: inline-block;
-    margin: 0 10px;
   }
 
-  a {
-    color: #42b983;
+
+  .imagem-responsiva{
+    width: 100%;
   }
 </style>

@@ -70,7 +70,13 @@ enxergar ainda melhor o poder do data binding
 ### Alura 04 - Criando componentes e encapsulamento de view
 
 ```
-
+a estilizar um componente
+boa prática na organização do projeto
+a criar um componente reutilizável
+como passar parâmetro para um componente (comunicação)
+o conceito de slot e preservação de conteúdo
+importação de um componente em outro
+a definir e delimitar o escopo de estilos ao componente no qual foram declarados
 ```
 
 ### Aula 05 - Melhorando a UX com animações
