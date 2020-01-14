@@ -56,11 +56,11 @@
     box-shadow: 5px 5px 10px grey;
   }
 
-  .painel-fade-enter, .painel-fade-leave-active {
+  .painel-enter, .painel-leave-active {
     opacity: 0
   }
 
-  .painel-fade-enter-active, .painel-fade-leave-active {
+  .painel-enter-active, .painel-leave-active {
     transition: opacity .4s
   }
 
