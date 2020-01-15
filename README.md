@@ -96,12 +96,25 @@ a criar mais um componente
 ### Aula 06 - Single Page Application e criação de rotas
 
 ```
-
+a criar um novo componente/página
+o conceito de Single Page Application
+extrair de App.vue um componente de página, separando responsabilidades
+a baixar e registrar o módulo VueRouter
+criar rotas da aplicação
+o componente router-view
+o modo history vs hash
+a criar um menu baseado em nossas configurações de rota
+a tornar o menu um componente
+executar efeito de transição na troca de páginas
+a validar propriedades em um componente
 ```
 
 ### Aula 07 - Um pouco mais sobre componentes
-
 ```
-
+a criar um novo componente reutilizável
+a criar nossos próprios eventos
+a aplicar classes condicionalmente
+a diferença do valor passado para a propriedade de um componente sem bind e com bind
+a validar propriedades de componentes
 ```
 
