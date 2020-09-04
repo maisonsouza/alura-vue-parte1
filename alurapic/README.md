@@ -1,6 +1,6 @@
 # alurapic
 
-> Projeto da Plataforma Alura de Vue
+> A Vue.js project
 
 ## Build Setup
 

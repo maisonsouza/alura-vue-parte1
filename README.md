@@ -8,7 +8,11 @@ Vue CLI
 ### Aula 01 - Bem começado metade feito
 Instalar o CLI do Vue Globalmente
 ```
-npm install -g vue-cli@2.7.0
+ npm install -g vue-cli@2.7.0
+```
+no Linux
+```
+ sudo npm install -g vue-cli@2.7.0
 ```
 Obs: requer privilégios de Administrador
 
@@ -29,6 +33,26 @@ Iniciar o projeto
 ```
 - Interpolação
 - Live-reloading
+
+> RESUMO
+
+> instalar e utilizar o Vue CLI
+
+>criar do zero um novo projeto
+
+>estrutura fundamental do projeto
+ 
+>arquivos de template .vue
+ 
+>estrutura de um template
+ 
+>relação entre index.html, main.js e App.vue
+ 
+>como a renderização de um template é feita
+ 
+>data binding unidirecional através de interpolação
+ 
+>o mecanismo de live reloading
 
 
 ### Aula 02 - Adequando o template gerado

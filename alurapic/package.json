@@ -1,8 +1,8 @@
 {
   "name": "alurapic",
-  "description": "Projeto da Plataforma Alura de Vue",
+  "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Maison Galvão <maisongalvao144@gmail.com>",
+  "author": "maisongalvao144@gmail.com",
   "license": "MIT",
   "private": true,
   "scripts": {
