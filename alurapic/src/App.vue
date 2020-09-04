@@ -4,8 +4,6 @@
     <ul v-for="foto of fotos">
       <li><img :src="foto.url" :alt="foto.titulo"/></li>
     </ul>
-
-
   </div>
 </template>
 
